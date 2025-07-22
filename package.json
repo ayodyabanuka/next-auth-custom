@@ -1,5 +1,5 @@
 {
-  "name": "@abdev/next-auth-custom",
+  "name": "@ayodyabanuka/next-auth-custom",
   "version": "2.0.0",
   "description": "A helper library for custom JWT-based authentication in Next.js 13/14+ (App Router) without Firebase Auth",
   "main": "dist/index.js",
@@ -38,7 +38,7 @@
     "app-router",
     "custom-auth"
   ],
-  "author": "AB Dev",
+  "author": "Ayodya Banuka",
   "license": "MIT",
   "peerDependencies": {
     "next": "^13.0.0 || ^14.0.0",
@@ -62,10 +62,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abdev/next-auth-custom.git"
+    "url": "git+https://github.com/ayodyabanuka/next-auth-custom.git"
   },
   "bugs": {
-    "url": "https://github.com/abdev/next-auth-custom/issues"
+    "url": "https://github.com/ayodyabanuka/next-auth-custom/issues"
   },
-  "homepage": "https://github.com/abdev/next-auth-custom#readme"
+  "homepage": "https://github.com/ayodyabanuka/next-auth-custom#readme"
 }
