@@ -1,6 +1,6 @@
 {
   "name": "@ayodyabanuka/next-auth-custom",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A helper library for custom JWT-based authentication in Next.js 13/14+ (App Router) without Firebase Auth",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
