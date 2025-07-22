@@ -1,0 +1,71 @@
+{
+  "name": "@abdev/next-auth-custom",
+  "version": "2.0.0",
+  "description": "A helper library for custom JWT-based authentication in Next.js 13/14+ (App Router) without Firebase Auth",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./middleware": {
+      "types": "./dist/middleware.d.ts",
+      "import": "./dist/middleware.mjs",
+      "require": "./dist/middleware.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "nextjs",
+    "authentication",
+    "jwt",
+    "auth",
+    "middleware",
+    "typescript",
+    "app-router",
+    "custom-auth"
+  ],
+  "author": "AB Dev",
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13.0.0 || ^14.0.0",
+    "react": "^18.0.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie": "^0.5.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdev/next-auth-custom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abdev/next-auth-custom/issues"
+  },
+  "homepage": "https://github.com/abdev/next-auth-custom#readme"
+}
