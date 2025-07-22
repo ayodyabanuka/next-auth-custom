@@ -11,7 +11,7 @@ import {
   DatabaseAdapter,
   User,
   AuthConfig,
-} from '@abdev/next-auth-custom';
+} from '@ayodyabanuka/next-auth-custom';
 
 // Example in-memory database adapter
 class InMemoryDatabaseAdapter implements DatabaseAdapter {
