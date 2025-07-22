@@ -1,4 +1,4 @@
-# @abdev/next-auth-custom
+# @ayodyabanuka/next-auth-custom
 
 A comprehensive helper library for custom JWT-based authentication in Next.js 13/14+ (App Router) without Firebase Auth.
 
@@ -604,4 +604,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 If you have any questions or need help, please open an issue on GitHub.
+
 # next-auth-custom
